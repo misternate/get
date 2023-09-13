@@ -14,3 +14,5 @@ $ python get.py (-n rename the file [optional]) (-d create or add the file to a 
 $ pyinstaller get.py
 ```
 This will create `/dist/get` which can then be directly executed `get https://domainname.domain/file.extension`.
+
+Additionally, you can add get as an alias. In zsh, as an example, add `alias get="./get"` to create a global alias for the app.
